@@ -36,8 +36,8 @@ function App() {
     <div className="App">
       <h1>My own data:{users.length} </h1>
       <form onSubmit={handleAddUser}>
-        <input type="text" name="name" id="" placeholder='name' required /><br />
-        <input type="text" name="email" id="" placeholder='email' required /><br />
+        <input type="text" name="name" id="" placeholder='Name' required /><br />
+        <input type="text" name="email" id="" placeholder='Email' required /><br />
         <input type="submit" value="add user" />
       </form>
       <ul>
